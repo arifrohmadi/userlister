@@ -2,7 +2,7 @@
 $server		= "localhost";
 $username	= "root";
 $password	= "";
-$database	= "twitter";
+$database	= "userlister";
 
 //koneksi dan memilih database di server
 mysql_connect($server,$username,$password) or die("Gagal");
